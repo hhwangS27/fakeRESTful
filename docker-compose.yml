@@ -1,0 +1,12 @@
+version: '3'
+services:
+  express:
+    image: hhwang927/nodejs
+    tty: true
+    container_name: express
+    ports:
+      - "4000:4000"
+    volumes:
+      - "./usf:/root/usf"
+    command: bash -c "
+      bash"
