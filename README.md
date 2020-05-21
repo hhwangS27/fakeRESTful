@@ -1,2 +1,6 @@
 # fakeRESTful
-Fake RESTful API based on JSON file.
+Will run a fake RESTful API server based on JSON file.
+
+Based on express.
+
+
