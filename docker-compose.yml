@@ -9,4 +9,6 @@ services:
     volumes:
       - "./usf:/root/usf"
     command: bash -c "
-      bash"
+      cd /root/usf/express_backend
+      && npm install
+      && npm run dev"
